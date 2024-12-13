@@ -309,7 +309,6 @@
                         <div class="card">
                             <h3 class="terminal-text">Contact Info</h3>
                             <p>📧 hegdehudga@gmail.com</p>
-                            <p>📱 +91 9892101300</p>
                             <p>💼 LinkedIn: Kartikeya Naik</p>
                         </div>
                         <div class="card">
@@ -347,7 +346,6 @@
             const title = tabId.charAt(0).toUpperCase() + tabId.slice(1);
             mainContent.innerHTML = createWindow(title, content[tabId]);
             
-            // Add visible class after a small delay to trigger animation
             setTimeout(() => {
                 document.querySelector('.window').classList.add('visible');
             }, 50);
